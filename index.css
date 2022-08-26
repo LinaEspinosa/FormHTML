@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Poppins:wght@100;200&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.container{
+    margin: 3% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#9aa0a5; 
+      
+}
+h1{
+    margin:10px 0;
+}
+
+h4{
+    margin-bottom: 3rem;
+}
+
+input[type=text],input[type=submit], select, textarea{
+    width:75vw;
+    padding:10px;
+    margin:10px 0;
+    outline: none; /*quita el contorno que trae por defecto al hacer clic*/
+
+}
+select{
+    width:40vw;
+    padding:10px;
+    display:inline;
+}
+
+label{
+    width:100%;
+    display:inline-block;
+    
+}
+input, textarea{
+    border-radius: 0;
+    border: 0.5px solid ;
+    color:#ced4da;
+}
+
+input[type=submit]{
+    background-color:#d9b504;
+}
+input[type=submit]:hover{
+    background-color:#f8d007;
+    cursor:pointer;
+}
+
+
